@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.header_logo img {
+  width: 150px;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 2rem;
+  cursor: pointer;
+  font-family: monospace;
+  font-weight:600;
+  color: rgb(215, 89, 89);
+}
