@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Aprops from "./pages/Aprops/Aprops";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* <Route path="logement/:logementId" exact element={<Logement />} />
           <Route path="*" element={<Erreur />} /> */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
