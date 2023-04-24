@@ -1,16 +1,15 @@
 import React from 'react'
 import {MOCK_PROJECTS} from '../../Data/MockData'
-
-// interface ProjectListProps {
-//     project: MOCK_PROJECTS[];
-  
-//   }
+import './House.scss'
+import HouseCard from './HouseCard'
 
 
 const House = () => {
     console.log(MOCK_PROJECTS)
   return (
-    <div>House</div>
+    <div className='bg_card'>
+<HouseCard  cards={MOCK_PROJECTS}/>
+    </div>
   )
 }
 

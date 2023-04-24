@@ -33,7 +33,7 @@ export const MOCK_PROJECTS =  [
     }),
     new Accommodation({
       id: "b9123946",
-      title: "Magnifique appartement proche Canal Saint Martin",
+      title: "Magnifique appartement- Saint Martin",
       cover:
         "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
       pictures: [

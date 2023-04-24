@@ -8,7 +8,7 @@ export class Accommodation {
   id?: string ;
   title?: string;
   cover?: string;
-  pictures?: string[];
+  pictures?: string | number;
   description?: string;
   host?: Host | undefined;
   rating?: string;
