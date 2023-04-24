@@ -8,7 +8,7 @@ interface HousePropos {
 }
 
 const HouseCard = ({ cards }: HousePropos) => {
-  console.log(cards.map((crs) => crs.title));
+  // console.log(cards.map((crs) => crs.title));
 
   return (
     <div className="block">
