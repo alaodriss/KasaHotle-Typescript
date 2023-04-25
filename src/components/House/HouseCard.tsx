@@ -1,24 +1,28 @@
 import React from "react";
 import { Accommodation } from "../../Data/Data";
-
 import "./House.scss";
+import { Link } from "react-router-dom";
 
 interface HousePropos {
   cards: Accommodation[];
 }
 
 const HouseCard = ({ cards }: HousePropos) => {
-  // console.log(cards.map((crs) => crs.title));
+  console.log(cards);
 
   return (
-    <div className="block">
+    <>
       {cards.map((card) => (
-        <div className="card" key={card.id}>
-          <img src={card.cover} alt="prictures" />
-          <p className="titre_card"> {card.title}</p>
+        <div className="block" key={card.id}>
+          <div className="card" >
+            <Link to={`logement/${card.id}`}>
+              <img src={card.cover} alt="prictures" />
+              <p className="titre_card"> {card.title}</p>
+            </Link>
+          </div>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

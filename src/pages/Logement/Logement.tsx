@@ -1,6 +1,6 @@
 import React from 'react'
 import './Logement.scss'
-import Data from './LogementData'
+import LogementData from './LogementData'
 import {MOCK_PROJECTS} from '../../Data/MockData'
 
 
@@ -8,7 +8,7 @@ import {MOCK_PROJECTS} from '../../Data/MockData'
 const Logement = () => {
   return (
     <>
-      <Data data={MOCK_PROJECTS} />
+      <LogementData data={MOCK_PROJECTS} />
     </>
   )
 }
